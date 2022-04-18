@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBJKnuOLbudqtGhycvnLTlMer4kabdxtTo",
-    authDomain: "men-s-gymnasium.firebaseapp.com",
-    projectId: "men-s-gymnasium",
-    storageBucket: "men-s-gymnasium.appspot.com",
-    messagingSenderId: "471910627869",
-    appId: "1:471910627869:web:31fe4702dd74e9233be4f4"
+    apiKey: "AIzaSyDYZn21vO7bDyyqKOTYWD3dDMpJOuOknbs",
+    authDomain: "personal-gym-trainer-61c76.firebaseapp.com",
+    projectId: "personal-gym-trainer-61c76",
+    storageBucket: "personal-gym-trainer-61c76.appspot.com",
+    messagingSenderId: "919676700647",
+    appId: "1:919676700647:web:12385a6ed63c6e0f241f42"
 };
 
 // Initialize Firebase

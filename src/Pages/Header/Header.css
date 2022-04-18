@@ -1,0 +1,14 @@
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.nav-link a:hover {
+    color: red;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
