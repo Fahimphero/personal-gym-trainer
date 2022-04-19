@@ -1,12 +1,12 @@
-.nav-link a {
+.nav-link span {
     color: white;
-    padding-left: 30px;
+
     font-weight: 500;
 }
 
-.nav-link a:hover {
+.nav-link span:hover {
     color: red;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .brand {

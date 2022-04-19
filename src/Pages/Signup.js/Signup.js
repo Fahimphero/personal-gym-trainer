@@ -18,7 +18,8 @@ const Signup = () => {
         user,
         loading,
         hookError,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
+
     const location = useLocation();
     const navigate = useNavigate();
     let from = location.state?.from?.pathname || "/";
@@ -52,7 +53,7 @@ const Signup = () => {
     return (
         <div className='mt-4'>
             <h2 className='text-center text-primary'><span>Signup</span><hr /></h2>
-            <Form onSubmit={handleSubmit} className='w-25 d-block mx-auto'>
+            <Form onSubmit={handleSubmit} className='w-50 d-block mx-auto'>
                 <Form.Group className="mb-3" >
                     <Form.Label>Name</Form.Label>
                     <Form.Control onBlur={handleName} type="text" placeholder="Enter name" required />

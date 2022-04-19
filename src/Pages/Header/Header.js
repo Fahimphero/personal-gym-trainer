@@ -19,7 +19,7 @@ const Header = () => {
     }
     return (
 
-        <Navbar sticky="top" bg="dark" variant="dark" >
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand className='brand' as={Link} to="/">
                     <img
@@ -33,16 +33,25 @@ const Header = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ms-auto nav-link">
-                        {(user[0]?.email || googleUser[0]?.displayName) ?
-                            <button className='border-0 bg-dark  signOut' onClick={handleSignout} >SignOut</button> :
-                            <button className='border-0 bg-dark'><Link to='/login'>Login</Link></button>
-                        }
+                    <Nav className="me-auto">
 
-                        <Link to="/services">Services</Link>
-                        <Link to="/blogs">Blogs</Link>
-                        <Link to="/about">About Me</Link>
 
+                    </Nav>
+                    <Nav>
+                        <Nav className='d-flex align-items-center'>
+                            {(user[0]?.email || googleUser[0]?.displayName)
+                                ?
+                                <button className='border-0 bg-dark  signOut' onClick={handleSignout} >SignOut</button>
+                                :
+
+                                <Nav.Link as={Link} to='/login'><span>Login</span></Nav.Link>
+                            }
+
+                            <Nav.Link className="nav-link" as={Link} to="/services"><span>Services</span></Nav.Link>
+                            <Nav.Link as={Link} to="/blogs"><span>Blogs</span></Nav.Link>
+                            <Nav.Link as={Link} to="/about"><span>About Me</span></Nav.Link>
+
+                        </Nav>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
