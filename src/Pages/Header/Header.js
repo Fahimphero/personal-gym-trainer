@@ -39,6 +39,7 @@ const Header = () => {
                     </Nav>
                     <Nav>
                         <Nav className='d-flex align-items-center'>
+                            <Nav.Link as={Link} to="/"><span>Home</span></Nav.Link>
                             {(user[0]?.email || googleUser[0]?.displayName)
                                 ?
                                 <button className='border-0 bg-dark  signOut' onClick={handleSignout} >SignOut</button>
