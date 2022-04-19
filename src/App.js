@@ -14,7 +14,7 @@ import Footer from './Pages/Footer/Footer';
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: '#f4f3f1' }}>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
