@@ -87,7 +87,7 @@ const Login = () => {
                     <p className='mt-2 px-2'>Or</p>
                     <div className='w-50 bg-primary' style={{ height: '2px' }}></div>
                 </div>
-                <Button onClick={() => signInWithGoogle()} className='w-50 d-block mx-auto mt-3 signin-btn' variant="info"><img src={logo} alt="" /> Google Sign In</Button>
+                <Button onClick={() => signInWithGoogle()} className='w-50 d-block mx-auto mt-3 signin-btn ' variant="info"><img src={logo} alt="" /> <span>Google Sign In</span></Button>
             </Form >
             <ToastContainer />
         </div >
