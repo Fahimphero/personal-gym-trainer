@@ -19,7 +19,7 @@ const Header = () => {
     }
     return (
 
-        <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar style={{ backgroundColor: '#1e1d1b' }} sticky="top" collapseOnSelect expand="lg" variant="dark">
             <Container>
                 <Navbar.Brand className='brand' as={Link} to="/">
                     <img
