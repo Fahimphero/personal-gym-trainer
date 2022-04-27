@@ -19,3 +19,14 @@
 button:hover {
     background-color: rgba(65, 105, 225, 0.844);
 }
+
+.card {
+    transition: all 1s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.04);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    cursor: grab;
+}

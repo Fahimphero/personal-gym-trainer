@@ -17,7 +17,7 @@
         "_id": 3,
         "index": 2,
         "picture": "https://i.ibb.co/kS1H49H/item3.jpg",
-        "body": "As your coach, I ensure that you execute each exercise properly to maximize results and minimize injury.",
+        "body": "As your coach, I ensure that you execute each exercise properly to maximize results and minimize injury. Preventing injury is our real goal.",
         "name": "Coaching"
     },
     {
@@ -38,7 +38,7 @@
         "_id": 6,
         "index": 5,
         "picture": "https://i.ibb.co/kS1H49H/item3.jpg",
-        "body": "Every 6-8 weeks (depending on your program), I provide a comprehensive progress report that shows your…",
+        "body": "Every 6-8 weeks (depending on your program), I provide a comprehensive progress report that shows your health condition and body fitness.",
         "name": "Results Measurement"
     }
 ]

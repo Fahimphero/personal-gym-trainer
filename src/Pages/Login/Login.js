@@ -75,7 +75,7 @@ const Login = () => {
                 </Button>
                 <h6 className='mt-4'>New to My Gym?<Link style={{ textDecoration: 'none', color: 'blue' }} to='/signup'> Please Register</Link></h6>
 
-                <h6 className='mt-3 d-flex align-items-center'>Forgot Password? <button onClick={resetPassword} className=' ps-1 border-0' style={{ backgroundColor: 'white' }}><span style={{ color: 'blue' }}>Reset Password</span></button>
+                <h6 className='mt-3 d-flex align-items-center'>Forgot Password? <button onClick={resetPassword} className=' ps-1 border-0' style={{ backgroundColor: '#f4f3f1' }}><span style={{ color: 'blue' }}>Reset Password</span></button>
 
                 </h6>
 

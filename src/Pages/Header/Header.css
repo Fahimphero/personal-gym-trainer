@@ -19,4 +19,5 @@
 
 .signOut:hover {
     color: red;
+    text-decoration: underline;
 }

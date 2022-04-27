@@ -10,9 +10,9 @@ import './Header.css'
 const Header = () => {
     const user = useAuthState(auth);
     const googleUser = useAuthState(auth);
-    console.log(user)
-    console.log(googleUser)
-    console.log(user[0]?.email);
+    // console.log(user)
+    // console.log(googleUser)
+    // console.log(user[0]?.email);
     const handleSignout = () => {
         signOut(auth);
 
@@ -42,7 +42,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/"><span>Home</span></Nav.Link>
                             {(user[0]?.email || googleUser[0]?.displayName)
                                 ?
-                                <button className='border-0 bg-dark  signOut' onClick={handleSignout} >SignOut</button>
+                                <button style={{ backgroundColor: '#1e1d1b' }} className='border-0  signOut' onClick={handleSignout} >SignOut</button>
                                 :
 
                                 <Nav.Link as={Link} to='/login'><span>Login</span></Nav.Link>

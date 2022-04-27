@@ -3,10 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import './service.css'
 
 const Service = (props) => {
-    const { picture, name, body } = props.service;
+    const { _id, picture, name, body } = props.service;
     const navigate = useNavigate();
-    const handleNavigation = () => {
-        navigate('/checkout')
+    const handleNavigation = (_id) => {
+        navigate(`/checkout/${_id}`)
     }
     return (
 
@@ -16,7 +16,7 @@ const Service = (props) => {
                 <div className="card-body body-design">
                     <h5 className="card-title text-center">{name}</h5>
                     <p className="card-text">{body}</p>
-                    <div onClick={handleNavigation} className='button'><button>BOOK NOW</button></div>
+                    <div onClick={() => handleNavigation(_id)} className='button'><button>BOOK NOW</button></div>
                 </div>
             </div>
         </div>
