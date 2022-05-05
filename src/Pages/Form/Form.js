@@ -9,7 +9,7 @@ const Form = () => {
                 <h2 className='fw-bold'>Get In Touch</h2>
                 <p>To get every update please submit the form</p>
             </div>
-            <div className="row gx-5">
+            <div className="row">
                 <div className="col-12 col-lg-6  rounded-3 p-3 mx-auto">
                     <img className='img-fluid' src={image} alt="" />
                 </div>
