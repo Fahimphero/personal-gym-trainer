@@ -1,12 +1,10 @@
 My website: [Personal Gym Trainer](https://personal-gym-trainer-61c76.web.app/).
 
 # Main Features
-* Responsiveness added
-* Bootstrap added
-* Google Firebase Authentication added
-* React Router added
-* React Firebase hooks added
-* Javascript library React is used to built this website
+* It’s a website that provides gym training services.
+* Users can sign up or log in to this website using google or email.
+* Only signed-up users can book their specific services.
+* Users can also reset their account password if they want to reset it.
 
 ## Available Scripts
 
