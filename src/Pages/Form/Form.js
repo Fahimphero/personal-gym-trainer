@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../Images/contact-img.png'
+import image from '../../Images/contact me.png'
 import './Form.css'
 
 const Form = () => {
@@ -14,7 +14,7 @@ const Form = () => {
                     <img className='img-fluid' src={image} alt="" />
                 </div>
                 <div className="col-12 col-lg-6 ">
-                    <form className='w-75 mx-auto bg-dark p-3 rounded-3'>
+                    <form className='w-75 mx-auto bg-dark p-3 rounded-3 mt-5'>
                         <div className="mb-3 mt-3">
                             <label className="form-label text-light">Your Name</label>
                             <input type="text" className="form-control" id="" ></input>
