@@ -1,4 +1,4 @@
-My website: [Personal Gym Trainer](https://personal-gym-trainer-61c76.firebaseapp.com/).
+My website: [Personal Gym Trainer](https://personal-gym-trainer-d5b35.firebaseapp.com/).
 
 # Main Features
 
